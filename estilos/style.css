@@ -13,37 +13,6 @@
    }
 }
 
-@media (min-width:360px) and (min-height:650px){
-   .Barra{
-      height: 30vh;
-   }
-   .sobre{
-      div{
-         height: 30vh;
-         width: 35vh;
-      }
-   }
-   span{
-      img{
-         width: 37px;
-      }
-   }
-   .InfoBasica,.one,.two,.three{
-      font-size: 1.1em;
-   }
-   .ee{
-      font-size: 1.7em;
-   }
-   footer{
-       font-size: 1.4em;
-       p{
-         font-size: 0.8em;
-       }
-   }
-   .direito{
-      font-size: 1em;
-   }
-}
 @media (min-width: 501px) and (max-width: 700px){
    nav{
       display: none;
@@ -123,7 +92,9 @@
    nav>a:hover{
       color:tomato
    }
-
+   main{
+      height: 80vh;
+   }
    main>div{
       margin-top: 163px;
       height: 45vh;
@@ -224,6 +195,38 @@
       margin-left: 29px;
    }
    
+}
+
+@media (min-width:360px) and (max-width:900px) and (min-height:650px){
+   .Barra{
+      height: 30vh;
+   }
+   .sobre{
+      div{
+         height: 30vh;
+         width: 35vh;
+      }
+   }
+   span{
+      img{
+         width: 37px;
+      }
+   }
+   .InfoBasica,.one,.two,.three{
+      font-size: 1.1em;
+   }
+   .ee{
+      font-size: 1.7em;
+   }
+   footer{
+       font-size: 1.4em;
+       p{
+         font-size: 0.8em;
+       }
+   }
+   .direito{
+      font-size: 1em;
+   }
 }
 
 

@@ -67,6 +67,10 @@ header.alvaro{
     width: 100%;
     
 }
+header.hidden {
+    opacity: 0; /* Cabeçalho invisível pointer-events: none;  Ignora eventos de ponteiro (opcional) */
+    
+  }
 
 
 

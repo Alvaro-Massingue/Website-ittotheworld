@@ -2,7 +2,25 @@ window.addEventListener("scroll", function(){
 
     var header =document.querySelector("header");
 
-    header.classList.toggle("alvaro", window.scrollY >0);
+    //header.classList.toggle("alvaro", window.scrollY >0);
+    var scrollPosition = window.scrollY;
+    var windowHeight = window.innerHeight;
+    
+    // Adiciona a classe 'alvaro' se rolar para baixo
+    if (scrollPosition > 0) {
+        header.classList.add("alvaro");
+    } else {
+        header.classList.remove("alvaro");
+    }
+
+    // Adiciona a classe 'hidden' se rolar abaixo da metade da altura da janela
+    if (scrollPosition > windowHeight / 2) {
+        header.classList.add("hidden");
+    } else {
+        header.classList.remove("hidden");
+    }
+
+
 })
 
 function show(){
