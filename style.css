@@ -51,7 +51,7 @@ header{
     align-items: center;
     height: 12vh;
     font-size: 1em;
-    background-image: url(../Project01/IMG/ai-7977960_1280.jpg);
+    background-image:url('IMG/ai-7977960_1280.jpg'); ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ nav>a{
 
 main{
    
-    background-image: url(../Project01/IMG/ai-7977960_1280.jpg);
+    background-image: url('IMG/ai-7977960_1280.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
